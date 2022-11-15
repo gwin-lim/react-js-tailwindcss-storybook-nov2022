@@ -1,5 +1,5 @@
 {
-  "name": "React JS TailwindCSS Storybook Nov 2022 ",
+  "name": "react-js-tailwindcss-storybook-nov-2022",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -68,6 +68,9 @@
     "build-storybook": "build-storybook"
   },
   "eslintConfig": {
+    "env": {
+      "NODE_ENV": "development"
+    },
     "extends": [
       "react-app",
       "react-app/jest"
